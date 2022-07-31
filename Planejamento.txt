@@ -1,0 +1,24 @@
+Lidando com os arquivos iniciais
+    Abrir um arquivo
+        Testar se foi aberto o arquivo correto
+    Extrair todos o numeros e colocar em uma lista
+        Verificar se a lista realmente contem todos os numeros do arquivo
+
+    Abrir o outro arquivo
+        Testar se foi aberto o arquivo correto
+    Extrair todos o numeros e colocar em uma lista
+        Verificar se a lista realmente contem todos os numeros do arquivo
+
+Juncao
+    Juntar as duas listas sem ordenar
+        Verificar se todos os numeros foram adicionados
+    Ordenar a lista
+        Verificar se a ordenacao foi feita corretamente
+
+Arquivo final
+    Criar o arquivo final
+        Testar se o arquivo foi criado
+    Inserir um termo da lista ordenada por linha
+        Verificar se todos os numeros foram escritos no arquivo
+
+
