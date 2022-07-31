@@ -8,3 +8,10 @@ Teste 2:
         Obtem o numero de cada linha;
         Remove a quebra de linha ao final;
         Retorna uma lista com todos os numeros.  
+
+Teste 3:
+    Testa se a funcao de juntar as listas numericas obtidas anteriormente;
+    Passar no teste implica que a funcao:
+        Consegue chamar a funcao "extraiNumeros" efetivamente;
+        Junta as listas de acordo com a ordem solicitada;
+        Retorna uma lista unificada.
