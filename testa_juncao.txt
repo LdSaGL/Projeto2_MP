@@ -1,0 +1,3 @@
+Primeiros 2 testes:
+    Testar se os arquivos que serao abertos sao os que realmente foram declarados
+    Passar no teste implica que foram armazenados os valores corretos nas variáveis "ArquivoX"e "ArquivoY"
