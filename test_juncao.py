@@ -1,4 +1,9 @@
 import juncao
 
-def testeArquivosAbertos():
-    assert juncao.arquivos("Arquivo1", "Arquivo2") == ("Arquivo1.txt", "Arquivo2.txt")
+# Testa se o valor armazenado em 'a' e 'b' sao os esperados 
+
+def testeArquivo1():
+    assert juncao.a == "Arquivo1.txt"
+
+def testeArquivo2():
+    assert juncao.b == "Arquivo2.txt"
