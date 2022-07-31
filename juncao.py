@@ -9,7 +9,10 @@ def extraiNumeros(x):
 
 """ Funcao que junta as listas extraidas de cada um dos dois arquivos e retorna uma lista"""
 def juntaNumeros(a, b):
-    print()
+    lista_a = extraiNumeros(a)
+    lista_b = extraiNumeros(b)
+    lista_a.extend(lista_b)
+    return lista_a
 
 """ Funcao que pega a lista obtida na funcao juntaNumeros, ordena e retorna uma lista"""
 def ordenaNumeros(a, b):
@@ -29,6 +32,5 @@ b = "Arquivo2.txt"
 c = "Arquivo3.txt"
 d = "Arquivo4.txt"
 
-print(extraiNumeros(a))
-
+print(juntaNumeros(a, b))
 
