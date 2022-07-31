@@ -1,3 +1,10 @@
-Primeiro teste:
-    Testar se os arquivos que serao abertos sao os que realmente foram solicitados
-    Passar no teste implica que foram armazenados os valores corretos nas variáveis "arquivo1"e "arquivo2"
+Teste 1:
+    Testa se os arquivos que serao abertos sao os solicitados;
+    Passar no teste implica que serao abertos os arquivos corretos.
+
+Teste 2:
+    Testa se a funcao de extrair os numeros dos arquivos e efetiva;
+    Passar no teste implica que a funcao:
+        Obtem o numero de cada linha;
+        Remove a quebra de linha ao final;
+        Retorna uma lista com todos os numeros.  

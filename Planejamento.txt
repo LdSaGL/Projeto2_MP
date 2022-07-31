@@ -16,9 +16,7 @@ Juncao
         Verificar se a ordenacao foi feita corretamente
 
 Arquivo final
-    Criar o arquivo final
-        Testar se o arquivo foi criado
-    Inserir um termo da lista ordenada por linha
+    Criar o arquivo final e inserir um termo da lista ordenada por linha
         Verificar se todos os numeros foram escritos no arquivo
 
 

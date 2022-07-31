@@ -1,6 +1,11 @@
 """ Funcao que extrai os numeros de um arquvio e retorna uma lista"""
 def extraiNumeros(x):
-    print()
+    arquivoAberto = open(x, 'r')
+    numerosArquivo = []
+    for numero in arquivoAberto:
+        numerosArquivo.append(numero.strip())
+    arquivoAberto.close()
+    return numerosArquivo
 
 """ Funcao que junta as listas extraidas de cada um dos dois arquivos e retorna uma lista"""
 def juntaNumeros(a, b):
@@ -21,7 +26,9 @@ print('Me informe quais os arquivos que deverao ser unidos seguindo o formato : 
 #b = input('Segundo arquivo: ')
 a = "Arquivo1.txt"
 b = "Arquivo2.txt"
+c = "Arquivo3.txt"
+d = "Arquivo4.txt"
 
-executar(a, b)
+print(extraiNumeros(a))
 
 
