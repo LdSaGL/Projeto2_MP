@@ -15,3 +15,7 @@ Teste 3:
         Consegue chamar a funcao "extraiNumeros" efetivamente;
         Junta as listas de acordo com a ordem solicitada;
         Retorna uma lista unificada.
+
+Teste 4:
+    Testa se a lista com os numeros dos dois arquivos analisados esta ordenada;
+    Passar no teste implica que a ordenacao foi efetiva.

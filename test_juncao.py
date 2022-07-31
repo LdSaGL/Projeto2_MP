@@ -62,3 +62,48 @@ def testeJuncaoArquivos4e2():
 def testeJuncaoArquivos4e3():
     assert juncao.juntaNumeros("Arquivo4.txt", "Arquivo3.txt") == ['1', '2', '3', '6', '7', '8', '1', '2', '3']
 
+def testeJuncaoArquivos1e1():
+    assert juncao.juntaNumeros("Arquivo1.txt", "Arquivo1.txt") == ['1', '3', '5', '7', '1', '3', '5', '7']
+
+def testeJuncaoArquivos2e2():
+    assert juncao.juntaNumeros("Arquivo2.txt", "Arquivo2.txt") == ['2', '4', '6', '2', '4', '6']
+
+def testeJuncaoArquivos3e3():
+    assert juncao.juntaNumeros("Arquivo3.txt", "Arquivo3.txt") == ['1', '2', '3', '1', '2', '3']
+
+def testeJuncaoArquivos4e4():
+    assert juncao.juntaNumeros("Arquivo4.txt", "Arquivo4.txt") == ['1', '2', '3', '6', '7', '8', '1', '2', '3', '6', '7', '8']
+
+
+
+# 4 - Testa se a funcao "ordenaLista" coloca os termos da lista final em ordem ascendente
+
+def testeJuncaoOrdenada1():
+    assert juncao.ordenaLista("Arquivo1.txt", "Arquivo2.txt") == ['1', '2', '3', '4', '5', '6', '7']
+
+def testeJuncaoOrdenada2():
+    assert juncao.ordenaLista("Arquivo1.txt", "Arquivo3.txt") == ['1', '1', '2', '3', '3', '5', '7']
+
+def testeJuncaoOrdenada3():
+    assert juncao.ordenaLista("Arquivo1.txt", "Arquivo4.txt") == ['1', '1', '2', '3', '3', '5', '6', '7', '7', '8']
+
+def testeJuncaoOrdenada4():
+    assert juncao.ordenaLista("Arquivo2.txt", "Arquivo3.txt") == ['1', '2', '2', '3', '4', '6']
+
+def testeJuncaoOrdenada5():
+    assert juncao.ordenaLista("Arquivo2.txt", "Arquivo4.txt") == ['1', '2', '2', '3', '4', '6', '6', '7', '8']
+
+def testeJuncaoOrdenada6():
+    assert juncao.ordenaLista("Arquivo3.txt", "Arquivo4.txt") == ['1', '1', '2', '2', '3', '3', '6', '7', '8']
+
+def testeJuncaoOrdenada7():
+    assert juncao.ordenaLista("Arquivo1.txt", "Arquivo1.txt") == ['1', '1', '3', '3', '5', '5', '7', '7']
+
+def testeJuncaoOrdenada8():
+    assert juncao.ordenaLista("Arquivo2.txt", "Arquivo2.txt") == ['2', '2', '4', '4', '6', '6']
+
+def testeJuncaoOrdenada9():
+    assert juncao.ordenaLista("Arquivo3.txt", "Arquivo3.txt") == ['1', '1', '2', '2', '3', '3']
+
+def testeJuncaoOrdenada10():
+    assert juncao.ordenaLista("Arquivo4.txt", "Arquivo4.txt") == ['1', '1', '2', '2', '3', '3', '6', '6', '7', '7', '8', '8']
