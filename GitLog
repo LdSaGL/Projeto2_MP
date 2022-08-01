@@ -1,0 +1,89 @@
+[33mcommit c86dfb11f28a9be4df37ee4a5321fc0672d74291[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 22:20:27 2022 -0300
+
+    Como rodar o projeto
+
+[33mcommit 479737af4ec7f52e3c3bcd14b441c242ae5618ec[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 22:20:17 2022 -0300
+
+    Bateria final de testes
+
+[33mcommit 202bd7515b50937365d831b0613322ebc12bcc82[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 22:19:50 2022 -0300
+
+    Formatacao pylint
+
+[33mcommit 0941ccc7d68f19ad2806e8512f773f6d8d74cec7[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 22:12:57 2022 -0300
+
+    Formatacao pylint
+
+[33mcommit 5c2f8031893a1d2c7cf568ea701317bebd23d56d[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 22:12:47 2022 -0300
+
+    Formatacao pylint
+
+[33mcommit db8841b87ec8fe55585a5b84a5ed2e7c5d757639[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 21:12:20 2022 -0300
+
+    Teste de arquivo final
+
+[33mcommit 254878927f87e8a02cff8173867a3d4237a1ec77[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 17:33:45 2022 -0300
+
+    Teste de ordenacao da lista final
+
+[33mcommit 7637417c5ff90042e0a63c9ed9d7ae66f7f9d62c[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 17:13:58 2022 -0300
+
+    Teste de juncao de listas
+
+[33mcommit 5d7422df6ecac50626d8362a4e344000bc0befbb[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 17:13:50 2022 -0300
+
+    Teste de juncao de listas
+
+[33mcommit 61fcf26935949dd5989fd70ceb9f35759725b02c[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 16:55:11 2022 -0300
+
+    Teste de extracao dos numeros dos arquivos
+
+[33mcommit e4e53ec110b0a244e5fe51ea86fb11d8d728b110[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 16:42:01 2022 -0300
+
+    Teste de armazenamento em variaveis
+
+[33mcommit 6a1651d30210a1cc6567f1191effb79b9b6d9c01[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 15:19:16 2022 -0300
+
+    Teste dos arquivos que serao abertos
+
+[33mcommit 148bc5e6c25cf60eeb0b4e0a1cd8008669c49b26[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 15:02:36 2022 -0300
+
+    Teste para verificar qual arquivo sera aberto
+
+[33mcommit d67702b44ebc74d97204a3c7f74917470c0615b3[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 14:39:53 2022 -0300
+
+    LayoutBase
+
+[33mcommit 37d77a7a4782d49d6d99e4806fd3ee14ada18e24[m
+Author: LdSaGL <lucas.sa.licio@gmail.com>
+Date:   Sun Jul 31 14:10:29 2022 -0300
+
+    TesteGit
