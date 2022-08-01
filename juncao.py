@@ -1,8 +1,12 @@
-""" Funcao que extrai os numeros de um arquvio e retorna uma lista"""
+def extraiNumeros(arquivo):
+    """
+    Funcao que extrai os numeros de um arquvio e retorna uma lista
 
+    :param arquivo: str
 
-def extraiNumeros(z):
-    arquivoAberto = open(z, 'r')
+    :return list numerosArquivo:
+    """
+    arquivoAberto = open(arquivo, 'r')
     numerosArquivo = []
     for numero in arquivoAberto:
         numerosArquivo.append(numero.strip())
@@ -10,32 +14,46 @@ def extraiNumeros(z):
     return numerosArquivo
 
 
-""" Funcao que junta as listas extraidas de cada um dos dois arquivos e
-retorna uma lista"""
-
-
 def juntaNumeros(arquivoX, arquivoY):
-    lista_X = extraiNumeros(arquivoX)
-    lista_Y = extraiNumeros(arquivoY)
-    lista_X.extend(lista_Y)
-    return lista_X
+    """
+    Funcao que junta as listas extraidas de cada um dos dois arquivos e
+    retorna uma lista
 
+    :param arquivoX: str
+    :param arquivoX: str
 
-""" Funcao que pega a lista obtida na funcao juntaNumeros, ordena e
-retorna uma lista"""
+    :return list listaNumerica:
+    """
+    lista_numerica = extraiNumeros(arquivoX)
+    lista_numerica_auxiliar = extraiNumeros(arquivoY)
+    lista_numerica.extend(lista_numerica_auxiliar)
+    return lista_numerica
 
 
 def ordenaLista(arquivoX, arquivoY):
+    """
+    Funcao que pega a lista obtida na funcao juntaNumeros, ordena e
+    retorna uma lista
+
+    :param arquivoX: str
+    :param arquivoX: str
+
+    :return list lista_unida:
+    """
     lista_unida = juntaNumeros(arquivoX, arquivoY)
     lista_unida.sort()
     return lista_unida
 
 
-""" Funcao que cria o arquivo final e coloca os numeros da lista
-ordenada seguindo o padrao de formatacao fornecido no roteiro"""
-
-
 def executar(arquivoX, arquivoY, nomeArquivo):
+    """
+    Funcao que cria o arquivo final e coloca os numeros da lista
+    ordenada seguindo o padrao de formatacao fornecido no roteiro
+
+    :param arquivoX: str
+    :param arquivoX: str
+    :param nomeArquivo: str
+    """
     lista = ordenaLista(arquivoX, arquivoY)
     arquivo_final = open(nomeArquivo, "x")
     for termo in lista:
@@ -43,8 +61,8 @@ def executar(arquivoX, arquivoY, nomeArquivo):
 
 
 # Variaveis de teste - desconsiderar ao rodar o codigo
-a = "Arquivo1.txt" # comentar a linha para rodar
-b = "Arquivo2.txt" # comentar a linha para rodar
+a = "Arquivo1.txt"  # comentar a linha para rodar
+b = "Arquivo2.txt"  # comentar a linha para rodar
 
 """ <- Excluir para rodar
 print('Siga o formato para qualquer input: "NomeDoArquivo.txt"')
