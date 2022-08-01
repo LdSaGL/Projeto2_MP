@@ -1,0 +1,9 @@
+O projeto esta na formatacao de verificacao de teste
+    Para fazer a verificacao, rodar no terminal:
+        coverage run -m pytest
+        coverage report
+
+Para tornar o projeto utilizavel:
+    Comentar as linhas 46 e 47
+    Remover as linhas 49 e 58
+    
