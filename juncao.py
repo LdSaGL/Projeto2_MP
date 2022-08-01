@@ -43,9 +43,10 @@ def executar(arquivoX, arquivoY, nomeArquivo):
 
 
 # Variaveis de teste - desconsiderar ao rodar o codigo
-# a = "Arquivo1.txt"
-# b = "Arquivo2.txt"
+a = "Arquivo1.txt" # comentar a linha para rodar
+b = "Arquivo2.txt" # comentar a linha para rodar
 
+""" <- Excluir para rodar
 print('Siga o formato para qualquer input: "NomeDoArquivo.txt"')
 print('Informe quais os arquivos que deverao ser unidos')
 a = input('Primeiro arquivo: ')
@@ -54,3 +55,4 @@ print()
 print('Informe como deseja nomear o arquivo final')
 nome = input('Nome do arquivo: ')
 executar(a, b, nome)
+Excluir para rodar -> """
