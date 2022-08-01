@@ -19,4 +19,3 @@ Arquivo final
     Criar o arquivo final e inserir um termo da lista ordenada por linha
         Verificar se todos os numeros foram escritos no arquivo
 
-

@@ -19,3 +19,7 @@ Teste 3:
 Teste 4:
     Testa se a lista com os numeros dos dois arquivos analisados esta ordenada;
     Passar no teste implica que a ordenacao foi efetiva.
+
+Teste 5: 
+    Testa se o arquivo final foi criado com os valores esperados e na formatacao solicitada;
+    Passar no teste implica que o projeto foi concluido com exito.

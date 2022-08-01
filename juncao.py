@@ -21,17 +21,21 @@ def ordenaLista(arquivoX, arquivoY):
     return lista_unida
 
 """ Funcao que cria o arquivo final e coloca os numeros da lista ordenada seguindo o padrao de formatacao fornecido no roteiro"""
-def executar(arquivoX, arquivoY):
-    ordenaLista
-    print()
+def executar(arquivoX, arquivoY, nomeArquivo):
+    lista = ordenaLista(arquivoX, arquivoY)
+    arquivo_final = open(nomeArquivo, "x")
+    for termo in lista:
+        arquivo_final.write(termo+'\n')
 
-print('Me informe quais os arquivos que deverao ser unidos seguindo o formato : "NomeDoArquivo.txt"')
-#a = input('Primeiro arquivo: ')
-#b = input('Segundo arquivo: ')
+
 a = "Arquivo1.txt"
 b = "Arquivo2.txt"
-c = "Arquivo3.txt"
-d = "Arquivo4.txt"
 
-print(ordenaLista(a, b))
 
+"""print('Informe quais os arquivos que deverao ser unidos seguindo o formato: "NomeDoArquivo.txt"')
+a = input('Primeiro arquivo: ')
+b = input('Segundo arquivo: ')
+print()
+print('Informe como deseja chamar o arquivo final seguindo o formato: "NomeDoArquivo.txt"')
+nome = input('Nome do arquivo: ')
+executar(a, b, nome)"""
